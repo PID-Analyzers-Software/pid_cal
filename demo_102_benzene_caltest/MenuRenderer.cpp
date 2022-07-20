@@ -53,7 +53,7 @@ void SSD1306RunMenuRenderer::render(Menu* menu)
   m_display->setFont(ArialMT_Plain_24);
   // m_display->drawString(60, 18, "4653.1");
   //  m_display->drawString(60, 18, "12.2");
-  m_display->drawString(60, 18, "1.5");
+  m_display->drawString(60, 18, sensor_val);
 
   m_display->setFont(ArialMT_Plain_10);
   m_display->drawString(105, 30, "ppm");
